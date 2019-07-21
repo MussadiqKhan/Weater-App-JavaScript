@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="./style.css">
+	<title>Weather</title>
+</head>
+<body id='body'>
+
+	<div class="location">
+		<h1 class="location-timezone" id='location-timezone'>Timezone</h1>
+		<canvas class='icon' width="128" height="128"></canvas>
+
+	</div>
+	<div class="temperature" id='temp'>
+		<div class="degree">
+			<h2 class="temperature-degree" id='temperature-degree'>40</h2>
+			<span class="span_main" id='icon_span'>F</span>
+		</div>
+		<div class="temperature-description" id='temperature-description'>Loading...</div>
+	</div>
+	<div class="daily row">
+		<div class="degree1 col-lg-2 col-sm-2">
+			<span id='day0' style="font-size:20px;"></span>
+			<h2 class="temperature-degree" id='temperature-degree0'>40 </h2>
+			<canvas class="temperature-description0" id='temperature-description0' width="50" height="50"></canvas>
+		</div>
+		<div class="degree1 col-lg-2 col-sm-2">
+			<span id='day1' style="font-size:20px;"></span>
+			<h2 class="temperature-degree" id='temperature-degree1'>40</h2>
+			<canvas class="temperature-description1" id='temperature-description0' width="50" height="50"></canvas>
+		</div>
+		<div class="degree1 col-lg-2 col-sm-2">
+			<span id='day2' style="font-size:20px;"></span>
+			<h2 class="temperature-degree" id='temperature-degree2'>40 </h2>
+			<canvas class="temperature-description2" id='temperature-description0' width="50" height="50"></canvas>
+		</div>
+		<div class="degree1 col-lg-2 col-sm-2">
+			<span id='day3' style="font-size:20px;"></span>
+			<h2 class="temperature-degree" id='temperature-degree3'>40 </h2>
+			<canvas class="temperature-description3" id='temperature-description0' width="50" height="50"></canvas>
+		</div>
+		<div class="degree1 col-lg-2 col-sm-2">
+			<span id='day4' style="font-size:20px;"></span>
+			<h2 class="temperature-degree" id='temperature-degree4'>40 </h2>
+			<canvas class="temperature-description4" id='temperature-description0' width="50" height="50"></canvas>
+		</div>
+		<div class="degree1 col-lg-2 col-sm-2">
+			<span id='day5' style="font-size:20px;"></span>
+			<h2 class="temperature-degree" id='temperature-degree5'>40 </h2>
+			<canvas class="temperature-description5" id='temperature-description0' width="50" height="50"></canvas>
+		</div>
+
+		
+	</div>
+
+
+
+	<script type="text/javascript" src="app.js"></script>
+	<script type="text/javascript" src="skycons.js"></script>
+
+</body>
+</html>
